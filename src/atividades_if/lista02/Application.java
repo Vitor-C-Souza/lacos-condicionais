@@ -18,7 +18,7 @@ public class Application {
         else
             message += " é ímpar ";
 
-        if (numero > 0)
+        if (numero >= 0)
             message += "e positivo.";
         else
             message += "e negativo.";
