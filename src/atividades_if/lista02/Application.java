@@ -18,11 +18,12 @@ public class Application {
         else
             message += " é ímpar ";
 
-        if (numero >= 0)
+        if (numero > 0)
             message += "e positivo.";
-        else
+        else if (numero < 0)
             message += "e negativo.";
-
+        else
+            message += "e zero";
         System.out.println(message);
 
     }
