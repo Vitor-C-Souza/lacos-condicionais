@@ -30,13 +30,13 @@ public class Application {
                     System.out.printf("%s + %s = %s", num.get(0), num.get(1), (num.get(0) + num.get(1)));
                     break;
                 case 2:
-                    System.out.printf("%s + %s = %s", num.get(0), num.get(1), (num.get(0) - num.get(1)));
+                    System.out.printf("%s - %s = %s", num.get(0), num.get(1), (num.get(0) - num.get(1)));
                     break;
                 case 3:
-                    System.out.printf("%s + %s = %s", num.get(0), num.get(1), (num.get(0) * num.get(1)));
+                    System.out.printf("%s * %s = %s", num.get(0), num.get(1), (num.get(0) * num.get(1)));
                     break;
                 case 4:
-                    System.out.printf("%s + %s = %s", num.get(0), num.get(1), (num.get(0) / num.get(1)));
+                    System.out.printf("%s / %s = %s", num.get(0), num.get(1), (num.get(0) / num.get(1)));
                     break;
                 default:
                     System.out.println("Opção invalida");
