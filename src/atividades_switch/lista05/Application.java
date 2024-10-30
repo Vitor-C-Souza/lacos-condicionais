@@ -1,4 +1,4 @@
-package caso.lista05;
+package atividades_switch.lista05;
 
 import java.util.Scanner;
 
@@ -13,9 +13,7 @@ public class Application {
             this.produto = produto;
         }
 
-        public void setvalor(double valor) {
-            System.out.println("Quantos: ");
-            int quantidade = read.nextInt();
+        public void setvalor(double valor, int quantidade) {
             this.valor = valor * quantidade;
         }
 
@@ -47,30 +45,33 @@ public class Application {
                     """);
             int num = read.nextInt();
 
+            System.out.println("Quantos: ");
+            int quantidade = read.nextInt();
+
             switch (num) {
                 case 1:
                     recibo.setProduto("Cachorro Quente");
-                    recibo.setvalor(10);
+                    recibo.setvalor(10, quantidade);
                     break;
                 case 2:
                     recibo.setProduto("X-Salada");
-                    recibo.setvalor(15);
+                    recibo.setvalor(15, quantidade);
                     break;
                 case 3:
                     recibo.setProduto("X-Bacon");
-                    recibo.setvalor(18);
+                    recibo.setvalor(18, quantidade);
                     break;
                 case 4:
                     recibo.setProduto("Bauru");
-                    recibo.setvalor(12);
+                    recibo.setvalor(12, quantidade);
                     break;
                 case 5:
                     recibo.setProduto("Refrigerante");
-                    recibo.setvalor(8);
+                    recibo.setvalor(8, quantidade);
                     break;
                 case 6:
                     recibo.setProduto("Suco de laranja");
-                    recibo.setvalor(13);
+                    recibo.setvalor(13, quantidade);
                     break;
                 default:
                     System.out.println("Opção invalida!");

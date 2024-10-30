@@ -1,4 +1,4 @@
-package se.lista01;
+package atividades_if.lista01;
 
 import java.util.Arrays;
 import java.util.List;

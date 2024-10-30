@@ -1,4 +1,4 @@
-package se.lista03;
+package atividades_if.lista03;
 
 import java.util.Scanner;
 
